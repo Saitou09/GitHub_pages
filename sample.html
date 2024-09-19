@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡単なWebサイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #440000; /* ヘッダーの背景色 */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            min-height: calc(100vh - 60px); /* footerの高さを引く */
+            color: #cc0000; /* メインの文字色 */
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            background: #440000; /* フッターの背景色 */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>2つの項目のWebサイト</h1>
+    </header>
+    <main>
+        <section>
+            <h2>最近作ったお菓子</h2>
+            <p>カップケーキ</p>
+        </section>
+        <section>
+            <h2>次作りたいお菓子</h2>
+            <p>チョコレートブラウニー</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 私のお菓子作り</p>
+    </footer>
+</body>
+</html>
